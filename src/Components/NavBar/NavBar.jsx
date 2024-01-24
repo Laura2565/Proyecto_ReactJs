@@ -2,13 +2,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import CartWidget from '../CartWidget/CarWidget'
+import Logo from '../Logo';
 
 function NavBar() {
   return (
     <>
-    <Navbar bg="primary" data-bs-theme="dark">
+    <Navbar class='NavBar' bg="primary" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Logo</Navbar.Brand>
+          <Navbar.Brand href="#home"><Logo /></Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#features">Sprinkles</Nav.Link>
