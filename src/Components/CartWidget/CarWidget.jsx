@@ -6,7 +6,7 @@ const CarWidget = () => {
     return (
       <div className='container'>
           <button>
-          <BsCart />
+          <BsCart color='black'/>
           </button>
        
       </div>
