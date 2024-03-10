@@ -448,6 +448,17 @@ cursor: pointer;
 
 }
 
+.relacionado{
+  text-align: center;
+  background: pink;
+  color: black;
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
 /*MEDIA*/
 
     @media only screen and (max-width: 1000px) {
